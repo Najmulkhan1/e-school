@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+
+}
+.header{
+    background: #F0FFF0;
+    width: 1940px;
+    height: 576px;
+    text-decoration: none;
+    color: black;
+
+}
+.logo img{
+    position: fixed;
+    width: 310px;
+    height: 60px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-left: 9%;
+}
+.headsr-link{
+    position: fixed;
+    padding: 100px;
+    padding-inline: 80px;
+    margin: 5px;
+    padding-left: 1300px;
+    padding-bottom: 870px;
+    bottom: 10px;
+}
+
+.idr{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.headsr-link button{
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 28px;
+    background: #21B573;
+    color: rgb(255, 255, 255);
+    border-radius: 33px;
+    box-shadow: none;
+    border: none;
+}
+.halfside{
+    float: left;
+    padding-top: 150px;
+    padding-left: 9%;
+}
+.halfside img{
+    width: 744px;
+    height: 346px;
+    padding-left: 300px;
+}
+.color0{
+    color: #FD511A;
+    height: 50px;
+}
+.halfside h1{
+    height: 170px;
+    font-size: 60px;
+}    
+.halfside h1 span{
+    color: #21B573;
+}
+.color2{
+    color: #6C6B6B;
+
+}
+.halfside button{
+    padding: 12px 40px;
+    background: #21B573;
+    color: rgb(255, 255, 255);
+    border-radius: 33px;
+    font-size: 16px;
+    border: none;
+}
+
+.positioncng{
+    margin-top: 40px;
+    padding-top: 10px;
+
+}
+.course{
+    margin-left: 300px;
+}
+.topic{
+    width: 270px;
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.topic img{
+    width: 66px;
+    height: 85px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+#continerChange{
+    background: #F8FFFB;
+
+}
+#continerChange{
+    width: 270px;
+    height: 270px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.topic p{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+#secp{
+    color: #585859;
+    font-size: 16px;
+    position: relative;
+    left: 60px;
+}
+.onlin{
+    position: relative;
+    top: 400px;
+    right: 700px;
+}
+#fast{
+    width: 370px;
+    height: 483px;
+    background: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 18px;
+    position: relative;
+    top: 450px;
+    left: 300px;
+}
+#secound{
+    width: 370px;
+    height: 483px;
+    background: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 18px;
+    position: relative;
+    bottom: 54px;
+    left: 800px;
+}
+#third{
+    width: 370px;
+    height: 483px;
+    background: #ffffff;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 18px;
+    position: relative;
+    bottom: 555px;
+    left: 1300px;
+}
+#fast img{
+    width: 331px;
+    height: 234px;
+    position: relative;
+    bottom: 248px;
+    right: 30px;
+}
+#secound img{
+    width: 331px;
+    height: 234px;
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+}
+#third img{
+    width: 331px;
+    height: 234px;
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+}
+#fast h1{
+    font-size: 24px;
+    color: #585859;
+}
+#fast p{
+    font-size: 16px;
+    color: #585859;
+    font-weight: 400;
+}
+#fast button{
+    color: #ffffff;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+.ikds{
+    position: relative;
+    bottom: 230px;
+    right: 25px;
+}
+.hgfd{
+    float: left;
+    padding: 50px;
+    position: relative;
+    bottom: 60px;
+    right: 35px;
+}
+.hgfd img{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    position: relative;
+    top: 376px;
+    left: 330px;
+}
+.hgfd p{
+    color: #585859;
+    font-size: 12px;
+    position: relative;
+    top: 350px;
+    left: 360px;
+    
+}
+#secound h1{
+    font-size: 24px;
+    color: #585859;
+    position: relative;
+    bottom: 110px;
+    right: 25px;
+}
+#secound p{
+    font-size: 16px;
+    color: #585859;
+    font-weight: 400;
+    position: relative;
+    bottom: 110px;
+    right: 25px;
+}
+#secound button{
+    color: #ffffff;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+.ggfd{
+    float: left;
+    padding: 50px;
+    position: relative;
+    bottom: 564.2px;
+    left: 465px;
+}
+.ggfd img{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    position: relative;
+    top: 376px;
+    left: 330px;
+}
+.ggfd p{
+    color: #585859;
+    font-size: 12px;
+    position: relative;
+    top: 350px;
+    left: 360px;
+    
+}
+#third h1{
+    font-size: 24px;
+    color: #585859;
+    position: relative;
+    bottom: 110px;
+    right: 25px;
+}
+#third p{
+    font-size: 16px;
+    color: #585859;
+    font-weight: 400;
+    position: relative;
+    bottom: 110px;
+    right: 25px;
+}
+#third button{
+    color: #ffffff;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+.fffd{
+    float: left;
+    padding: 50px;
+    position: relative;
+    bottom: 1066px;
+    left: 960px;
+}
+.fffd img{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    position: relative;
+    top: 376px;
+    left: 330px;
+}
+.fffd p{
+    color: #585859;
+    font-size: 12px;
+    position: relative;
+    top: 350px;
+    left: 360px;
+    
+}
+.testiu h1{
+    color: black;
+    font-size: 36px;
+    position: relative;
+    bottom: 450px;
+    left: 500px;
+}
+.testiu p{
+    color: #6C6B6B;
+    font-size: 16px;
+    position: relative;
+    bottom: 350px;
+    left: 400px;
+}
+.testiu img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 430px;
+    left: 250px;
+}
+.footar{
+    width: 1950px;
+    height: 400px;
+    background: #282531;
+}
+.tagfootar p{
+    color: #F8FFFB;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.listitem{
+    color: #F0FFF0;
+    font-size: 20px;
+    float: left;
+    list-style: none;
+    padding: 80px;
+    position: relative;
+    left: 750px;
+    bottom: 60px;
+    line-height: 35px;
+}
+.fooder{
+    color: #F8FFFB;
+    position: relative;
+    top: 310px;
+    width: 300;
+}
